@@ -136,7 +136,7 @@ a {
     padding-right: 1em;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px), screen and (max-aspect-ratio: 9/16) {
     body {
         margin: 0;
         font-family: 'Open Sans', sans-serif;
