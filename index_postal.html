@@ -2,20 +2,66 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Мистецтво чаю - Головна</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Мистецтво чаю - Головна (Підтримка пошти)</title>
 </head>
-<body>
-<div class="container">
-  <div class="item header">
-    <div id="x">
-      <h1>Мистецтво чаю</h1>
-    </div>
-    <h2>Що таке чай?</h2>
+
+<body style="
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 100%;
+    min-height: 600px;
+    font-size: 20px;">
+
+<div class="item header" style="
+    padding: 0;
+    box-sizing: border-box;
+    display: table;
+    background-color: #797D62;
+    min-width: 434px;
+    width: 100%;
+    min-height: 100px;">
+
+  <div id="x" style="
+    display: table-cell;
+    margin: 0;
+    padding: 0 20px 0;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 48%;">
+
+    <h1 style="color: #F1DCA7;">Мистецтво чаю</h1>
   </div>
-  <div class="item left-sidebar">
-    <h3>Цікаві факти про чай:</h3>
-    <ol>
+
+  <h2 style="
+    color: #F1DCA7;
+    display: table-cell;
+    margin: 0;
+    padding: 0 20px 0;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 30%;
+    text-align: right;">Що таке чай?</h2>
+</div>
+
+<div class="item center" style="
+    padding: 0;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    height: calc(600px - 200px);">
+
+  <div class="item left-sidebar" style="
+    box-sizing: border-box;
+    display: table-cell;
+    background-color: #9B9B7A;
+    padding: 0 20px 0 0;
+    word-break: break-word;
+    font-size: 20px;
+    min-width: 70px;
+    width: 15%;">
+    <h3 style="margin: 20px 0 20px 20px;">Цікаві факти про чай:</h3>
+    <ol style="padding: 0 0 0 40px;">
       <li>
         <b>Другий після води:</b> Чай є другим найбільш вживаним напоєм у світі після води. Щодня споживається понад 3
         мільярди чашок чаю.
@@ -34,18 +80,39 @@
       </li>
     </ol>
   </div>
-  <div class="content">
-    <div class="item sub-header">
-      <a href="index.html">ГОЛОВНА</a> |
-      <a href="index_mobile.html">Головна (Підтримка телефонів)</a> |
-      <a href="index_postal.html">Головна (Підтримка пошти)</a> |
-      <a href="index.html">ГОЛОВНА</a>|
-      <a href="matcha.html">Матча</a> |
-      <a href="puer.html">Пуер</a> |
-      <a href="oolong.html">Улун</a> |
-      <a href="carcade.html">Каркаде</a>
+
+  <div class="item content" style="
+    padding: 0;
+    box-sizing: border-box;
+    display: table-cell;
+    width: 70%;
+    vertical-align: top;">
+
+    <div class="item sub-header" style="
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #D9AE94;
+      min-height: 50px;
+      text-align: center;
+      padding: 13px;">
+
+      <a href="index.html" style="text-decoration: none; color: inherit;">Головна</a> |
+      <a href="index_mobile.html" style="text-decoration: none; color: inherit;">Головна (Підтримка телефонів)</a> |
+      <a href="index_postal.html" style="text-decoration: none; color: inherit;">ГОЛОВНА (ПІДТРИМКА ПОШТИ)</a> |
+      <a href="index.html" style="text-decoration: none; color: inherit;">ГОЛОВНА</a>|
+      <a href="matcha.html" style="text-decoration: none; color: inherit;">Матча</a> |
+      <a href="puer.html" style="text-decoration: none; color: inherit;">Пуер</a> |
+      <a href="oolong.html" style="text-decoration: none; color: inherit;">Улун</a> |
+      <a href="carcade.html" style="text-decoration: none; color: inherit;">Каркаде</a>
     </div>
-    <div class="item text">
+
+    <div class="item text" style="
+      width: 100%;
+      box-sizing: border-box;
+      min-height: calc(100% - 50px);
+      padding: 20px;
+      background-color: #F1DCA7;
+      text-align: justify;">
       <p>
         <strong>Чай — це не просто напій, це ціла культура</strong>, що існує протягом тисячоліть і об'єднує людей по всьому світу.
         Залежно від регіону, традицій і способу обробки, чай може мати безліч смаків і ароматів. Це напій, який
@@ -88,7 +155,14 @@
         серед метушні сучасного світу.
       </p>
       <h4>Ось цікава мапа чаїв:</h4>
-      <img src="teas.jpg" alt="Мапа чаю" usemap="#teas map">
+      <img src="teas.jpg" alt="Мапа чаю" usemap="#teas map" style="
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        width: auto;">
+
       <map name="teas map">
         <area shape="rect" coords="20,20,150,380" href="puer.html" alt="Посилання 1">
         <area shape="rect" coords="160,20,300,380" href="carcade.html" alt="Посилання 2">
@@ -97,58 +171,108 @@
       </map>
     </div>
   </div>
-  <div class="right-sidebar">
-    <div class="item sidebar">
+
+  <div class="item right-sidebar" style="
+    padding: 0;
+    box-sizing: border-box;
+    display: table-cell;
+    word-break: break-all;
+    font-size: 20px;
+    vertical-align: bottom;
+    min-width: 70px;
+    width: 15%;">
+
+    <div class="item sidebar" style="
+      box-sizing: border-box;
+      width: 100%;
+      background-color: #9B9B7A;
+      padding: 20px 10px 20px 20px;
+      word-break: break-word;
+      min-height: 91%;">
+
       <h3>Ще статті про чай:</h3>
-      <ul>
+      <ul style="padding: 0 20px 0 10px;">
         <li>
-          <a href="https://www.teafame.com/history-of-tea/">History of Tea: From Ancient Origins to Modern
+          <a href="https://www.teafame.com/history-of-tea/" style="color: inherit;">History of Tea: From Ancient Origins to Modern
             Consumption</a>
         </li>
         <li>
-          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing">The Definitive Guide
+          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing" style="color: inherit;">The Definitive Guide
             to Tea Brewing</a>
         </li>
         <li>
-          <a href="https://www.teafame.com/history-of-tea/">Exploring the Health Benefits of Tea</a>
+          <a href="https://www.teafame.com/history-of-tea/" style="color: inherit;">Exploring the Health Benefits of Tea</a>
         </li>
         <li>
-          <a href="https://www.teafame.com/history-of-tea/">The Cultural Significance of Tea Around the World</a>
+          <a href="https://www.teafame.com/history-of-tea/" style="color: inherit;">The Cultural Significance of Tea Around the World</a>
         </li>
         <li>
-          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing">How to Brew the
+          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing" style="color: inherit;">How to Brew the
             Perfect Cup of Matcha</a>
         </li>
         <li>
-          <a href="https://www.teafame.com/history-of-tea/">Tea and the Silk Road: A Journey of Commerce and
+          <a href="https://www.teafame.com/history-of-tea/" style="color: inherit;">Tea and the Silk Road: A Journey of Commerce and
             Culture</a>
         </li>
         <li>
-          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing">A Guide to Iced Tea
+          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing" style="color: inherit;">A Guide to Iced Tea
             and Cold Brew Techniques</a>
         </li>
         <li>
-          <a href="https://www.teafame.com/history-of-tea/">The Evolution of Tea Ceremonies in Japan</a>
+          <a href="https://www.teafame.com/history-of-tea/" style="color: inherit;">The Evolution of Tea Ceremonies in Japan</a>
         </li>
         <li>
-          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing">Understanding the
+          <a href="https://www.artoftea.com/blogs/tea-101/the-definitive-guide-to-tea-brewing" style="color: inherit;">Understanding the
             Different Types of Tea: Black, Green, Oolong, and More</a>
         </li>
         <li>
-          <a href="https://www.teafame.com/history-of-tea/">Tea Horse Road: The Ancient Trade Route</a>
+          <a href="https://www.teafame.com/history-of-tea/" style="color: inherit;">Tea Horse Road: The Ancient Trade Route</a>
         </li>
       </ul>
     </div>
-    <div class="item sidebar-footer">
+
+    <div class="item sidebar-footer" style="
+      box-sizing: border-box;
+      width: 100%;
+      background-color: #D08C60;
+      min-height: 9%;
+      padding: 20px;
+      word-break: break-word;">
+
       Зробити замовлення:
-      <br><i>+380998271015</i>
+      <br><i style="word-break: break-all;">+380998271015</i>
     </div>
   </div>
-  <div class="item footer">
-    <a href="https://github.com/Marshmalllows">Про автора</a>
-    <div id="y">
-      <h3>Спокій - у всьому</h3>
-    </div>
+</div>
+
+<div class="item footer" style="
+    padding: 0;
+    box-sizing: border-box;
+    display: table;
+    background-color: #997B66;
+    min-width: 434px;
+    width: 100%;
+    min-height: 100px;">
+
+  <a href="https://github.com/Marshmalllows" style="
+    display: table-cell;
+    margin: 0;
+    padding: 0 20px 0;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 30%;
+    color: inherit;">Про автора</a>
+
+  <div id="y" style="
+    display: table-cell;
+    margin: 0;
+    padding: 0 20px 0;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: 48%;
+    text-align: right;">
+
+    <h3>Спокій - у всьому</h3>
   </div>
 </div>
 </body>
